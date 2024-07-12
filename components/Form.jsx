@@ -24,7 +24,7 @@ const Form = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", access_key);
+    formData.append("access_key", "932ccb39-f066-4a4f-9336-69c7ae1fe376");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
