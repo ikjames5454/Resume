@@ -1,0 +1,28 @@
+.slideContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide {
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+
+.slide-in {
+    animation: slide-in 1s ease-out forwards;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
