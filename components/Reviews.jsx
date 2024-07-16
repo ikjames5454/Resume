@@ -44,7 +44,7 @@ const reviewDta = [
 
 const Reviews = () => {
   return (
-    <section className='dark:bg-none bg-plain h-[560px] xl:h-[700px]'>
+    <section className='dark:bg-none bg-plain h-[590px] xl:h-[700px]'>
         <div className='container mx-auto'>
             <h2 className='section-title mb-12 text-center mx-auto'>Reviews</h2>
             <Swiper
@@ -58,7 +58,7 @@ const Reviews = () => {
             pagination={{
                 clickable: true,
             }}
-            className='h-[480px]'
+            className='h-[500px]'
             >
                 {
                     reviewDta.map((person, index)=>{

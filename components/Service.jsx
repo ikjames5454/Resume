@@ -21,17 +21,17 @@ const servicesData=[
 
 const Service = () => {
   return (
-    <section className='h-[1500px] xl:h-[900px] xl:h dark:bg-none bg-plain'>
+    <section className='h-[1750px] xl:h-[900px] xl:h dark:bg-none bg-plain'>
         <div className='container mx-auto'>
-            <h2 className='section-title mb-12 xl:mb-24 text-center mx-auto'>My Services</h2>
-            <div className='grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8'>
+            <h2 className='section-title mb-12 xl:mb-24 text-center mx-auto h-32'>My Services</h2>
+            <div className='grid xl:grid-cols-3 justify-center gap-y-28 xl:gap-y-24 xl:gap-x-8'>
                 {
                     servicesData.map((item, index) => {
                         const {icon, title, description} = item;
                         return <Card key={index} 
                         className='w-full max-w-[424px] h-[420px] flex flex-col pt-16 pb-10 justify-center items-center relative'
                         >
-                            <CardHeader className='text-primary absolute -top-[60px]'>
+                            <CardHeader className='text-primary absolute xl:-top-[60px] -top-[95px]'>
                                 <div className='w-[140px] h-[80px] bg-pink-100 dark:bg-background flex justify-center items-center'>{icon}</div>
                                 
                             </CardHeader>
