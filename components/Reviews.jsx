@@ -22,22 +22,22 @@ const reviewDta = [
         review: 'This website is fantastic! It’s easy to navigate and has really improved our daily tasks. Highly recommend!'
     },
     {
-        avatar: "/hero/image.jpeg",
-        name: 'Harrison Nwaogugu',
-        job: "Product Manager",
-        review: 'As a Product Manager, I have worked with numerous tools and applications, but this one stands out for its intuitive design and seamless functionality. It has significantly streamlined our workflow, enabling us to focus more on strategic tasks rather than getting bogged down by technical issues.'
+        avatar: "/hero/toben.jpeg",
+        name: 'Quincy James',
+        job: "Accountant / Prolific Writer / Manager",
+        review: ' I am always focused on accuracy and efficiency, and I was thoroughly impressed with your work. Your approach to leveraging the latest frameworks not only shows your commitment to staying up-to-date with current technologies but also reflects a deep understanding of modern coding practices.'
     },
     {
-        avatar: "/hero/image.jpeg",
-        name: 'Harrison Nwaogugu',
-        job: "Product Manager",
-        review: 'As a Product Manager, I have worked with numerous tools and applications, but this one stands out for its intuitive design and seamless functionality. It has significantly streamlined our workflow, enabling us to focus more on strategic tasks rather than getting bogged down by technical issues.'
+        avatar: "/hero/divine.jpeg",
+        name: 'Divene James',
+        job: "Software Developer",
+        review: 'I  recently had the opportunity to review your project, and I must say, your work is exemplary. The way you’ve structured the project demonstrates a strong command of modern frameworks and technologies. It’s clear that you have a solid grasp of best practices for both frontend and backend development.'
     },
     {
-        avatar: "/hero/image.jpeg",
-        name: 'Harrison Nwaogugu',
+        avatar: "/hero/precious.jpeg",
+        name: 'Precious Ochunogo Lamour',
         job: "Product Manager",
-        review: 'As a Product Manager, I have worked with numerous tools and applications, but this one stands out for its intuitive design and seamless functionality. It has significantly streamlined our workflow, enabling us to focus more on strategic tasks rather than getting bogged down by technical issues.'
+        review: 'Am thoroughly impressed with the outcome. From a product perspective, your work demonstrates an excellent balance between technical execution and alignment with user needs and business goals.'
     },
 
 ]
@@ -66,13 +66,14 @@ const Reviews = () => {
                             <Card className='bg-tertiary dark:bg-secondary/40 p-8 min-h-[400px]'>
                             <CardHeader className='p-0 mb-10'>
                                 <div className='flex items-center gap-x-4'>
-                                    <Image
+                                    <img
                                         className='rounded-full'
                                         src={person.avatar}
                                         width={70}
                                         height={70}
                                         alt=''
-                                        priority
+                                        
+                                        // priority
                                     />
                                     <div className='flex flex-col'>
                                         <CardTitle>{person.name}</CardTitle>
